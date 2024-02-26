@@ -6,7 +6,6 @@ import dangercircle from './assets/danger-circle.png';
 import error from './assets/error.png';
 import sad from './assets/sad.png';
 
-
 const PrimaryBgColor = 'blue';
 const SecondaryBgColor = '#6CB4EE';
 const colorError = '#FA8072';
@@ -34,6 +33,7 @@ function App() {
       <Alert img= {checkmark} color= {colorSuccess} message = {messageSuccess} />
       </div>
     </div>
+    
   );
 }
 

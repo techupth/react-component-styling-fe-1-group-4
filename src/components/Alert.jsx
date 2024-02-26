@@ -16,10 +16,11 @@ export function Alert(props) {
             textAlign: left;
             background-color: ${props.color}};
               `}>
+
         <img src={props.img} width="20" height="20" style={{marginRight: '10px'}}/>
         {props.message}
            </button>
            </div>
-    )
+    );
   }
 
